@@ -1,0 +1,45 @@
+
+body{
+    background: black;
+}
+
+#board {
+    padding-top: 3em;
+    text-align: center;
+}
+
+.bottom{
+    border-bottom: white 1px solid;
+}
+.vertRight{
+    border-right: white 1px solid;
+}
+#title{
+    color: yellow;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.row {
+    
+    margin:  auto;
+    width: 302px;
+    clear: both;
+}
+
+.row > div{ 
+    float: left;
+    height: 100px;
+    width: 100px;
+    cursor: pointer;
+    line-height: 100px;
+    background: yellow;
+    
+}
+
+.refButton{
+    clear: left;
+    float: left;
+}
+
+
